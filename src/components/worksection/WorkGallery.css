@@ -1,0 +1,21 @@
+.work-g-img {
+  height: 100%;
+  width: 100%;
+}
+.work-g-card:hover {
+  box-shadow: 5px 10px 20px 2px rgba(77, 38, 38, 0.253);
+}
+
+.work-g-img {
+  height: 230px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.work-g-img:hover {
+  transform: scale(1.8);
+}
+
+.img-overflow {
+  overflow: hidden;
+}
