@@ -4,7 +4,7 @@ import './Serviceui.css';
 
 const ServiceUi = props => {
 	return (
-    <div>wait for some thing new</div>
+    <div>wait for some thing new...........</div>
   )
 }
 
