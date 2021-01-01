@@ -17,4 +17,4 @@ const ServiceUi = props => {
   )
 }
 
-export default ServiceUi; 
+export default ServiceUi;    

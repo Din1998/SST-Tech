@@ -1,8 +1,5 @@
-.service-main-container{
-  text-align: center;
-}
-
 .service-heading-container{
+  text-align: center;
   padding: 70px 0px 20px;
 }
 .service-heading {
@@ -50,4 +47,85 @@
   top: 50%;
   transform: translateY(-50%);
   right: 100%;
+}
+
+.service-details-container{
+  text-align: center;
+}
+
+/*psrallax-css*/
+
+.service-parallax-box{
+  overflow: hidden;
+  position: relative;
+  font-family:  open sans;
+  height: 250px;
+}
+
+.service-bg-prlx { 
+  position: relative;
+  background: url('https://www.healthcareitnews.com/sites/hitn/files/465256919_0.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: 50% 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.service-bg-prlx::before {
+  background: rgba(0, 0, 0, 0.85);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.service-heading h1 {
+  opacity: 5;
+  text-transform: uppercase;
+  font-family:  open sans;
+  font-weight: 300;
+  color: rgb(245, 240, 240);
+  font-size: 36px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 1em 0;
+  z-index: 1;
+}
+
+.service-icon{
+  position: relative;
+  display: inline;
+  z-index: 1;
+  margin-left: 50%;
+}
+.service-icon::before {
+  content: "";
+  position: absolute;
+  background:#ddd;
+  height: 2.5px;
+  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+}
+
+.service-icon::after {
+  content: "";
+  position: absolute;
+  background:#ddd;
+  height: 2.5px;
+  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100%;
+}
+.fa-1x{
+  color: rgb(47, 67, 177)
 }

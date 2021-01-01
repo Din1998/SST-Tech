@@ -23,54 +23,66 @@ const Service = props => {
           <p className="service-dis">check out some of our main core features.<br/>revelance is a very poweerful and daynamic web app with tons of shortcodes</p>
         </div>
       </div>
-      <Container>
-        <Row>
-          <Col>
-            <ServiceUi 
-              img={img2}
-              title="web development" 
-              discription="The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy."
+      <div className="service-details-container">
+        <Container>
+          <Row>
+            <Col>
+              <ServiceUi 
+                img={img2}
+                title="web development" 
+                discription="The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy."
+              />
+            </Col>
+            <Col>
+              <ServiceUi 
+                img={img1}
+                title="analystics" 
+                discription="Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program."
+              />
+            </Col>
+            <Col>
+              <ServiceUi 
+                img={img7}
+                title="database structure" 
+                discription="The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy."
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <ServiceUi 
+                img={img5}
+                title="advertising"
+                discription="The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy."
+              />
+            </Col>
+            <Col>
+              <ServiceUi 
+                img={img3}
+                title="mobile responsive" 
+                discription="Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program."
             />
-          </Col>
-          <Col>
-            <ServiceUi 
-              img={img1}
-              title="analystics" 
-              discription="Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program."
-            />
-          </Col>
-          <Col>
-            <ServiceUi 
-              img={img7}
-              title="database structure" 
-              discription="The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy."
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <ServiceUi 
-              img={img5}
-              title="advertising"
-              discription="The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy."
-            />
-          </Col>
-          <Col>
-            <ServiceUi 
-              img={img3}
-              title="mobile responsive" 
-              discription="Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program."
-          />
-          </Col>
-          <Col>
-            <ServiceUi 
-              img={img6}
-              title="graphic design" 
-              discription="Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program."
-            />
-          </Col>
-        </Row>
-      </Container>
+            </Col>
+            <Col>
+              <ServiceUi 
+                img={img6}
+                title="graphic design" 
+                discription="Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program."
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="service-parallax-box">
+        <div className="service-bg-prlx">
+            <div className="service-heading">
+              <h1>stay connected</h1>
+              <div className="service-icon">
+                <i className="fa fa-plug fa-1x" aria-hidden="true" />
+              </div>
+            </div>
+          </div> 
+      </div>
     </div>
   )
 }

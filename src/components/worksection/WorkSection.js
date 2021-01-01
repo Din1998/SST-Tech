@@ -55,6 +55,9 @@ const Work = props => {
           </Row>
       </Container>
       </div>
+      <div>
+        our technology this section coming soon...
+      </div>
 		</div>
 	);
 }
