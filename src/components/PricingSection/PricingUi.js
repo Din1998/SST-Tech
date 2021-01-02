@@ -1,6 +1,5 @@
 import React from 'react';
 import './PricingUi.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col,Carousel,Card} from 'react-bootstrap';
 
@@ -15,14 +14,14 @@ const PricingUi = props => {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img"
-									src="https://spectrum.ieee.org/image/MzYzNjYzMw.jpeg"
+									src="https://scholarlyoa.com/wp-content/uploads/2020/05/Software-Development-Project.png"
 									alt=""
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img"
-									src="https://www.aoe.com/fileadmin/_processed_/2/5/csm_Fotolia_58569245_Software_Development_930_590_70_1653613cc9.jpg"
+									src="https://scholarlyoa.com/wp-content/uploads/2020/05/Software-Development-Project.png"
 									alt=""
 								/>
 							</Carousel.Item>
@@ -36,53 +35,61 @@ const PricingUi = props => {
 						</Carousel>
 					</Col>
 					<Col md={6} className="pricing-card-section">
-						<div className="pricing-box-heading">
-							<h1>{props.mainHeading}</h1>
-						</div>
-						<div className="pricing-box-discription">
-							<p>{props.mainDiscription}</p>
-						</div>
-						<Row>
-							<Col md={4}>
-								<Card border="primary" className="pricing-card p-card-1">
-									<Card.Header className="p-card-heading">Basic</Card.Header>
-									<Card.Body>
-										<Card.Title  className="p-card-title">Start From</Card.Title>
-											<Card.Text className="number-pric">
+						<Container fluid>
+							<Row className="text-center abc">
+								<Col md={12}>
+									<div className="pricing-text-container">
+										<div className="pricing-box-heading">
+											<h2>{props.mainHeading}</h2>
+										</div>
+										<div className="pricing-box-discription">
+											<p>{props.mainDiscription}</p>
+										</div>
+									</div>
+								</Col>
+							</Row>
+							<Row className="text-center">
+								<Col sm={4}>
+									<Card border="primary" className="pricing-card p-card-1">
+										<Card.Header className="p-card-heading">Basic</Card.Header>
+										<Card.Body>
+											<Card.Title  className="p-card-title">Start From</Card.Title>
+												<Card.Text className="number-pric">
+													<div className="price-of-number">
+														<h1>70,000 TK</h1>
+													</div>
+												</Card.Text>
+										</Card.Body>
+									</Card>
+								</Col>
+								<Col sm={4}>
+									<Card border="primary" className="pricing-card p-card-2">
+										<Card.Header className="p-card-heading">Premium</Card.Header>
+										<Card.Body>
+											<Card.Title className="p-card-title">Start From</Card.Title>
+												<Card.Text>
 												<div className="price-of-number">
-													<h1>70,000 TK</h1>
-												</div>
-											</Card.Text>
-									</Card.Body>
-								</Card>
-							</Col>
-							<Col md={4}>
-								<Card border="primary" className="pricing-card p-card-2">
-									<Card.Header className="p-card-heading">Premium</Card.Header>
-									<Card.Body>
-										<Card.Title className="p-card-title">Start From</Card.Title>
-											<Card.Text>
-											<div className="price-of-number">
-													<h1>70,000 TK</h1>
-												</div>
-											</Card.Text>
-									</Card.Body>
-								</Card>
-							</Col>
-							<Col md={4}>
-								<Card border="primary" className="pricing-card p-card-3">
-									<Card.Header className="p-card-heading">Platinam</Card.Header>
-									<Card.Body>
-										<Card.Title className="p-card-title">Start From</Card.Title>
-											<Card.Text>
-											<div className="price-of-number">
-													<h1>70,000 TK</h1>
-												</div>
-											</Card.Text>
-									</Card.Body>
-								</Card>
-							</Col>
-						</Row>
+														<h1>70,000 TK</h1>
+													</div>
+												</Card.Text>
+										</Card.Body>
+									</Card>
+								</Col>
+								<Col sm={4}>
+									<Card border="primary" className="pricing-card p-card-3">
+										<Card.Header className="p-card-heading">Platinam</Card.Header>
+										<Card.Body>
+											<Card.Title className="p-card-title">Start From</Card.Title>
+												<Card.Text>
+												<div className="price-of-number">
+														<h1>70,000 TK</h1>
+													</div>
+												</Card.Text>
+										</Card.Body>
+									</Card>
+								</Col>
+							</Row>
+						</Container>
 					</Col>
 				</Row>
 			</Container>

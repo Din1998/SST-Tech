@@ -64,21 +64,21 @@ const PricingUi = props => {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img-box"
-									src="https://www.webdesigngoals.com/wp-content/uploads/2017/10/modern-graphics-design.jpg"
+									src="https://scholarlyoa.com/wp-content/uploads/2020/05/Software-Development-Project.png"
 									alt=""
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img-box"
-									src="https://miro.medium.com/max/12000/1*mrrCg9jv1FGbYctsSwUI_g.jpeg"
+									src="https://scholarlyoa.com/wp-content/uploads/2020/05/Software-Development-Project.png"
 									alt=""
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img-box"
-									src="https://cdn.mos.cms.futurecdn.net/h5J594mu7Wh2NG4cYEyesj.png"
+									src="https://scholarlyoa.com/wp-content/uploads/2020/05/Software-Development-Project.png"
 									alt=""
 								/>
 							</Carousel.Item>
