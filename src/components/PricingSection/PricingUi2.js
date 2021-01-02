@@ -1,11 +1,11 @@
 import React from 'react';
-import './PricingUi.css';
+import './PricingUi2.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col,Carousel,Card} from 'react-bootstrap';
 
 
-const PricingUi = props => {
+const PricingUi2 = props => {
 	return (
 		<div className="pricing-ui-main-container">
 			<Container fluid>
@@ -15,28 +15,28 @@ const PricingUi = props => {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img"
-									src="https://spectrum.ieee.org/image/MzYzNjYzMw.jpeg"
+									src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg"
 									alt=""
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img"
-									src="https://www.aoe.com/fileadmin/_processed_/2/5/csm_Fotolia_58569245_Software_Development_930_590_70_1653613cc9.jpg"
+									src="https://glasbans.com/assets/images/services/web-design-01.jpg"
 									alt=""
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100 pricing-carousol-img"
-									src="https://scholarlyoa.com/wp-content/uploads/2020/05/Software-Development-Project.png"
+									src="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg"
 									alt=""
 								/>
 							</Carousel.Item>
 						</Carousel>
 					</Col>
 					<Col md={6} className="pricing-card-section">
-						<div className="pricing-box-heading">
+						<div className="pricing-box-heading ">
 							<h1>{props.mainHeading}</h1>
 						</div>
 						<div className="pricing-box-discription">
@@ -63,7 +63,7 @@ const PricingUi = props => {
 										<Card.Title className="p-card-title">Start From</Card.Title>
 											<Card.Text>
 											<div className="price-of-number">
-													<h1>70,000 TK</h1>
+													<h1>100,000TK</h1>
 												</div>
 											</Card.Text>
 									</Card.Body>
@@ -76,7 +76,7 @@ const PricingUi = props => {
 										<Card.Title className="p-card-title">Start From</Card.Title>
 											<Card.Text>
 											<div className="price-of-number">
-													<h1>70,000 TK</h1>
+													<h1>150,000 TK</h1>
 												</div>
 											</Card.Text>
 									</Card.Body>
@@ -91,4 +91,4 @@ const PricingUi = props => {
 }
 
 
-export default PricingUi;
+export default PricingUi2;

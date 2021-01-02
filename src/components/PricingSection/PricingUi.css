@@ -1,8 +1,68 @@
+.pricing-ui-main-container{
+  padding: 70px 0px 20px;
+height: 100%;
+width: 100%;
 
+}
+.pricing-card-section{
+	top: 30px !important;
+}
+.pricing-box-heading{
+  font-family:  open sans;
+  font-weight: 300;
+  color: #333;
+  font-size: 36px;
+  line-height: 24px;
+}
+.pricing-box-discription{
+	font-family:  open sans;
+  font-weight: 300;
+  color: #333;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.p-card-heading{
+	font-family:  open sans;
+  font-weight: 300;
+  color: #333;
+  font-size: 36px;
+  line-height: 24px;
+}
+.p-card-title{
+	font-family:  open sans;
+  color: #333;
+  font-size: 20px !important;
+}
 
-.pricing-main-container{
-	padding: 80px 0px 0px;
-	color: coral;
-	text-align: center;
+.price-of-number{
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  text-align: center;
+}
 
+.pricing-card{
+	height: 270px !important;
+  width: 300px !important;
+  box-shadow: 5px 10px 20px 2px rgba(77, 38, 38, 0.253);
+}
+
+.pricing-card-carousol{
+  height: 450px;
+}
+
+.pricing-carousol-img{
+  height: 450px;
+}
+
+.p-card-1{
+	background-color: rgb(13, 206, 158);
+
+}
+.p-card-2{
+	background-color: rgb(164, 167, 0);
+}
+.p-card-3{
+ background-color: rgb(11, 106, 184);
 }
