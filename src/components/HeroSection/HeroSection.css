@@ -6,6 +6,10 @@
   height: 100%;
 }
 
+.hero-section{
+  padding: 80px 0px 0px;
+}
+
 @media only screen and (max-device-width: 425px) {
   .c-item {
     height: 45vh!important ;

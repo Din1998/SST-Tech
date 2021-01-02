@@ -2,7 +2,7 @@ import React from 'react';
 import  Service from '../ServiceSection/Service';
 
 
-function WorkPage () {
+function Services () {
 	return (
 		<div>
 			<Service />
@@ -10,4 +10,4 @@ function WorkPage () {
 	);
 }
 
-export default WorkPage;
+export default Services;

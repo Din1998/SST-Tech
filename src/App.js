@@ -7,6 +7,8 @@ import About from './components/pages/About';
 import TeamSection from './components/pages/Team';
 import WorkSection from './components/pages/Work';
 import Service from './components/pages/Service';
+import Pricing from './components/PricingSection/Pricing';
+import Contact from './components/ContactSection/Contact';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/Team" exact component={TeamSection} />
         <Route path="/Work" exact component={WorkSection} />
         <Route path="/Service" exact component={Service} />
+        <Route path="/Pricing" exact component={Pricing} />
+        <Route path="/Contact" exact component={Contact} />
       </Switch>
     </Router>
    </div>

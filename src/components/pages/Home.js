@@ -5,6 +5,8 @@ import About from './About';
 import Team from './Team';
 import Work from './Work';
 import Service from './Service';
+import Price from './Price';
+import Contact from './Contact';
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <Team />
       <Work />
       <Service />
+      <Price />
+      <Contact />
     </div>
   );
 }
