@@ -8,7 +8,7 @@ import './ContactUi.css';
 const ContactUi = props => {
 	return (
 		<div className="Contactui-main-container">
-			<h1>Im Contact section coming Soooooon............!</h1>
+			<h1>Im Contact section coming Soooooon...!</h1>
 		</div>
 	)
 }
