@@ -20,8 +20,8 @@ const PricingComponent = props => {
 				</Row>
 				<Row className="text-center">
 					<PricingUi1
-						cardBoxHeading="Our plans and pricing"
-						cardBoxPragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi."
+						mainHeading="Our plans and pricing"
+						mainDiscription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi."
 				  />
 				</Row>
 				<Row className="text-center">

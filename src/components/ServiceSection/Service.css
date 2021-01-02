@@ -62,7 +62,7 @@
   overflow: hidden;
   position: relative;
   font-family:  open sans;
-  height: 250px;
+  height: 350px;
 }
 
 .service-bg-prlx { 
@@ -70,7 +70,7 @@
   background: url('https://www.healthcareitnews.com/sites/hitn/files/465256919_0.jpg');
   height: 100%;
   background-attachment: fixed;
-  background-position: 50% 100px;
+  background-position: 50% 70px;
   background-repeat: no-repeat;
   background-size: cover;
   
